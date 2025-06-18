@@ -14,6 +14,13 @@ console.log(zeroVar ?? 'Результат');
 console.log(falseVar ?? 'Результат');
 
 */
-
+/*
 2
 
+const price = 0;
+
+//const result = price || 'Цена не указана';
+const result = price ?? 'Цена не указана';
+
+console.log(result);
+*/
