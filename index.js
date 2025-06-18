@@ -24,3 +24,32 @@ const result = price ?? 'Цена не указана';
 
 console.log(result);
 */
+/*
+3
+
+const bmw = {
+ name: "BMW",
+ color: 'black',
+ hp: 340,
+ doors: 2,
+ isStarted: false
+}
+
+bmw.color = 'green';
+console.log(bmw);
+
+const engine = {
+    hp: 340, 
+    capacity: 3,
+    mileage: 60000
+}
+
+bmw.engine = engine;
+
+delete bmw.hp
+console.log(bmw);
+console.log(bmw.color);
+
+console.log(bmw['name']);
+
+*/
