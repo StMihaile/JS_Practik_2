@@ -53,3 +53,35 @@ console.log(bmw.color);
 console.log(bmw['name']);
 
 */
+
+4
+const car = {
+ name: "BMW",
+ color: 'green',
+ wheels: 4,
+ hp: 340,
+ doors: 2,
+ isStarted: false,
+ engine: {
+    hp: 340,
+    capacity: 3,
+    mileage: 60000,
+ },
+ start: function() {
+    console.log(this);
+    this.isStarted = true;
+},
+
+openDoor(door) {
+    console.log('Открываем дверь', door);
+}
+}
+
+
+car.stop = function() {
+    this.isStarted = false;
+}
+
+car.start();
+
+console.log(car.isStarted);
