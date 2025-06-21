@@ -53,6 +53,7 @@ console.log(bmw.color);
 console.log(bmw['name']);
 
 */
+/*
 
 4
 const car = {
@@ -85,3 +86,21 @@ car.stop = function() {
 car.start();
 
 console.log(car.isStarted);
+
+*/
+/*
+
+5
+const person = {
+    name: "Петя",
+    getName: function(){
+        console.log(`Привет, меня зовут ${this.name}`);
+    }
+}
+
+const person2 = Object.create(person);
+person2.name = "Вася";
+
+person.getName();
+person2.getName();
+*/
