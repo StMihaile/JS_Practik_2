@@ -134,3 +134,22 @@ const pair = Object.entries(car);
 
 console.log(pair);
 */
+
+/*
+
+8
+
+const car = {
+    name: 'Audi',
+    hp: 280
+}
+
+Object.freeze(car);
+
+car.name = 'Mersedes';
+
+console.log(car);
+*/
+
+9
+
