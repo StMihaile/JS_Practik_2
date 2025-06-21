@@ -194,3 +194,21 @@ for(property in object) {
     console.log(`Свойство ${property} имеет значение: ${object[property]}`);
 }
     */
+
+/*
+12
+
+const object = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+Object.keys(object).forEach((property) => {
+    console.log(`Свойство ${property} имеет значение: ${object[property]}`);
+})
+    */
+
+13
+
+
