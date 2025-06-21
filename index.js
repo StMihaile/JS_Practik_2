@@ -226,3 +226,30 @@ Object.keys(registrationForm).forEach((field) => {
     }
 })
 */
+/*
+14
+
+const car = {
+    name: 'BMW',
+    isStarted: false,
+    start() {
+        console.log('Машина заведена');
+        this.isStarted = true;
+    },
+    stop() {
+        this.isStarted = false;
+    }
+}
+
+//const name = car.name;
+//const isStarted = car.isStarted;
+//const start = car.start;
+//const stop = car.stop;
+
+const {name, isStarted, start, stop, hp = 120} = car;
+start();
+console.log(car.isStarted);
+
+console.log(hp);
+
+*/
