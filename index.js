@@ -208,7 +208,21 @@ Object.keys(object).forEach((property) => {
     console.log(`Свойство ${property} имеет значение: ${object[property]}`);
 })
     */
-
+/*
 13
 
+const registrationForm = {
+    firstName: 'Петя',
+    lastName: 'Иванов',
+    birthDate: '19.12.1990',
+    password: 'qwerty'
+}
 
+Object.keys(registrationForm).forEach((field) => {
+    if(!registrationForm[field]) {
+        console.log('Форма заполнена не до конца');
+    } else {
+        console.log("Форма заполнена верно");
+    }
+})
+*/
