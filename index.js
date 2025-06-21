@@ -253,3 +253,16 @@ console.log(car.isStarted);
 console.log(hp);
 
 */
+/*
+15
+
+const arr = [1, 2, 3, 4, 10];
+
+const [one, two, three, four, five = 5] = arr;
+
+console.log(two);
+console.log(four);
+console.log(five);
+
+console.log(arr);
+*/
