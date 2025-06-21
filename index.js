@@ -266,3 +266,13 @@ console.log(five);
 
 console.log(arr);
 */
+/*
+16
+
+const helloUser = (...name) => {
+    console.log(`Привет ${name}`);
+}
+
+helloUser('Петя', 'Маша', 'Вася', 'Игнат', 'Паша');
+
+*/
