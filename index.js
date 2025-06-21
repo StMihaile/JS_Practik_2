@@ -287,3 +287,28 @@ const names = ['Петя', 'Маша', 'Вася', 'Игнат', 'Паша'];
 helloUser(...names)
 
 */
+/*
+18
+
+const baseCar = {
+    door: 4,
+    wheels: 4,
+    isStarted: false,
+    start() {
+        console.log('Машина заведена');
+        this.isStarted = true;
+    },
+    stop() {
+        this.isStarted = false;
+    }
+}
+
+const myCar = {
+    color: 'black'
+}
+
+//const object = Object.assign(baseCar, myCar);
+
+const object = {...baseCar, ...myCar}
+console.log(object);
+*/
