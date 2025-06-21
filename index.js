@@ -150,6 +150,22 @@ car.name = 'Mersedes';
 
 console.log(car);
 */
-
+/*
 9
 
+const car = {
+    name: 'Audi',
+    hp: 280
+}
+
+let key = Object.keys(car);
+
+console.log(key);
+
+key.forEach((key) => {
+    console.log(car[key]);
+})
+
+*/
+
+10
