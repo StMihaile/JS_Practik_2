@@ -181,3 +181,16 @@ let values = Object.values(car);
 
 console.log(values);
 */
+/*
+11
+
+const object = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+for(property in object) {
+    console.log(`Свойство ${property} имеет значение: ${object[property]}`);
+}
+    */
