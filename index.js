@@ -168,4 +168,16 @@ key.forEach((key) => {
 
 */
 
+/*
+
 10
+
+const car = {
+    name: 'Audi',
+    hp: 280
+}
+
+let values = Object.values(car);
+
+console.log(values);
+*/
