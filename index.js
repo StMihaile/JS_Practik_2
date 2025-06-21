@@ -276,3 +276,14 @@ const helloUser = (...name) => {
 helloUser('Петя', 'Маша', 'Вася', 'Игнат', 'Паша');
 
 */
+/*
+17
+
+const helloUser = (...name) => {
+    console.log(`Привет ${name}`);
+}
+
+const names = ['Петя', 'Маша', 'Вася', 'Игнат', 'Паша'];
+helloUser(...names)
+
+*/
