@@ -104,3 +104,21 @@ person2.name = "Вася";
 person.getName();
 person2.getName();
 */
+/*
+
+6
+
+const a = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+const b = {
+    c: 5,
+    d: 6
+}
+
+const object = Object.assign(a, b);
+console.log(object);
+*/
