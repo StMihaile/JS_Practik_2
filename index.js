@@ -122,3 +122,15 @@ const b = {
 const object = Object.assign(a, b);
 console.log(object);
 */
+/*
+7
+
+const car = {
+    name: 'Audi',
+    hp: 280
+}
+
+const pair = Object.entries(car);
+
+console.log(pair);
+*/
